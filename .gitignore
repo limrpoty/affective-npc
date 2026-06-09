@@ -1,0 +1,63 @@
+
+# Rust & Cargo (Maturin/PyO3)
+
+/core/target/
+/target/
+**/*.rs.bk
+Cargo.lock
+
+
+# Python & Ambientes Virtuais
+
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+env/
+ENV/
+.env
+
+
+# Build & Distribuição Python
+
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+
+# Logs e Dados Locais (Para o Teste A/B)
+
+logs/
+*.jsonl
+*.log
+
+
+# Pesquisa Acadêmica e TCC
+# Ignora os PDFs baixados, mas permite commitar os arquivos .bib e .md
+
+research/*.pdf
+research/*.epub
+
+
+# OS / Sistema
+
+.DS_Store
+Thumbs.db
+
+# Useless docs and things
+Welcome.md
+.obsidian
+.trash
